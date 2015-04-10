@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="AppTheme" parent="android:Theme.Material.Light">
+		<item name="android:windowContentTransitions">true</item>
+		<item name="android:actionBarStyle">@style/MyActionBar</item>
+	</style>
+
+	<!-- ActionBar styles -->
+	<style name="MyActionBar" parent="android:Widget.Material.ActionBar.Solid">
+		<item name="android:elevation">2dp</item>
+	</style>
+
+</resources>

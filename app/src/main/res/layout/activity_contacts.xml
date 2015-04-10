@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<ImageButton
+		android:id="@+id/num_pad_btn"
+		android:layout_width="56dp"
+		android:layout_height="56dp"
+		android:elevation="5dp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="20dp"
+		android:src="@mipmap/ic_dialpad_white_24dp"
+		android:background="@drawable/circle_blue" />
+
+</RelativeLayout>

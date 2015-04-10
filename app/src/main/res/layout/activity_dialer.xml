@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<View
+		android:id="@+id/num_pad_bg_to_animate"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignTop="@+id/number_pad"
+		android:background="#FFF"
+		android:elevation="5dp" />
+
+	<LinearLayout
+		android:id="@+id/number_pad"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:clipChildren="false"
+		android:clipToPadding="false"
+		android:elevation="5dp"
+		android:orientation="vertical"
+		android:padding="10dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="64dp"
+			android:orientation="horizontal">
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+
+			<Button
+				android:id="@+id/btn_1"
+				android:layout_width="64dp"
+				android:layout_height="64dp"
+				android:text="1" />
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+
+			<Button
+				android:id="@+id/btn_2"
+				android:layout_width="64dp"
+				android:layout_height="64dp"
+				android:text="2" />
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+
+			<Button
+				android:id="@+id/btn_3"
+				android:layout_width="64dp"
+				android:layout_height="64dp"
+				android:text="3" />
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="64dp"
+			android:orientation="horizontal">
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+
+			<Button
+				android:id="@+id/btn_4"
+				android:layout_width="64dp"
+				android:layout_height="64dp"
+				android:text="4" />
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+
+			<Button
+				android:id="@+id/btn_5"
+				android:layout_width="64dp"
+				android:layout_height="64dp"
+				android:text="5" />
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+
+			<Button
+				android:id="@+id/btn_6"
+				android:layout_width="64dp"
+				android:layout_height="64dp"
+				android:text="6" />
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="64dp"
+			android:orientation="horizontal">
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+
+			<Button
+				android:id="@+id/btn_7"
+				android:layout_width="64dp"
+				android:layout_height="64dp"
+				android:text="7" />
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+
+			<Button
+				android:id="@+id/btn_8"
+				android:layout_width="64dp"
+				android:layout_height="64dp"
+				android:text="8" />
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+
+			<Button
+				android:id="@+id/btn_9"
+				android:layout_width="64dp"
+				android:layout_height="64dp"
+				android:text="9" />
+
+			<Space
+				android:layout_width="0dp"
+				android:layout_height="1dp"
+				android:layout_weight="1" />
+		</LinearLayout>
+
+		<Button
+			android:id="@+id/btn_0"
+			android:layout_width="64dp"
+			android:layout_height="64dp"
+			android:layout_gravity="center_horizontal"
+			android:text="0" />
+
+		<ImageButton
+			android:id="@+id/call_button"
+			android:layout_width="56dp"
+			android:layout_height="56dp"
+			android:layout_gravity="center_horizontal"
+			android:layout_margin="10dp"
+			android:background="@drawable/circle_green"
+			android:elevation="5dp"
+			android:src="@mipmap/ic_call_white_24dp" />
+
+	</LinearLayout>
+
+</RelativeLayout>

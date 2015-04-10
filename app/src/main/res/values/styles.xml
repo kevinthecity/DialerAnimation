@@ -1,0 +1,23 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="android:Theme.Holo.Light">
+		<item name="android:windowContentTransitions">true</item>
+		<!--<item name="android:windowActivityTransitions">true</item>-->
+		<!--<item name="android:windowAllowEnterTransitionOverlap">true</item>-->
+		<!--<item name="android:windowAllowReturnTransitionOverlap">true</item>-->
+	</style>
+
+	<style name="AppTheme.Contact">
+		<!--<item name="android:colorPrimary">#FF00FF</item>-->
+		<!--<item name="android:colorPrimaryDark">#FF88FF</item>-->
+		<!--<item name="android:colorAccent">#FF0088</item>-->
+	</style>
+
+	<style name="AppTheme.Dialer">
+		<!--<item name="android:colorPrimary">#00FF00</item>-->
+		<!--<item name="android:colorPrimaryDark">#88FF88</item>-->
+		<!--<item name="android:colorAccent">#00FF88</item>-->
+	</style>
+
+</resources>
